@@ -25,17 +25,28 @@ def select_all_tasks(conn):
     :return:
     """
     cur = conn.cursor()
-    
+    print(cur)
     query1 = """
-        SELECT *
-        FROM FACILITIES
+     SELECT 
+	f.facid AS facid,
+	f.name AS fname,
+	strftime('%m', starttime) AS month,
+	SUM(b.slots) as slot
+FROM
+`Bookings`  as b
+LEFT JOIN
+`Facilities` as f
+ON
+b.facid=f.facid
+WHERE b.memid>0
+GROUP BY f.facid,fname,month
         """
     cur.execute(query1)
  
     rows = cur.fetchall()
- 
     for row in rows:
         print(row)
+    print('Num rows: ',len(rows))
 
 
 def main():
