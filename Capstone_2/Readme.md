@@ -52,7 +52,7 @@ One solution to this is implementing predictive models to time the signal, which
 <li> The linear regressor can be trained in a fraction of the time as the ARIMA or XGB Regressor
 <li> The linear regression model outperformed the ARIMA and is atleast as accurate as the XGB Regressor
 <li> Given these observations, the linear regressor seems to be the model of choice 
-<br>![alt text](image-5.png)
+<br>![alt text](/images/image-5.png)
 
 <b> Model Training and Performance Comparison</b>
 <br>![alt text](image-6.png)
