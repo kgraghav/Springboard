@@ -27,7 +27,7 @@ One solution to this is implementing predictive models to time the signal, which
 <li> The Linear Regressor model displayed better forecasting capability than the ARIMA model and atleast as good as the XGB Model for the dataset
 <li> The Linear Regressor is also incredibly faster to train than the others and also meets the accuracy criteria, making it a good choice for forecasting
 
-# Modeling:
+## Modeling:
 <b> Data Preparation: </b>
 <li> Scaling: We explored different scaling options, including Standard, MinMax and Log. Based on plotting the effect the transformation had on the data, it was decided MinMaxScaler was the most suitable transformation.
 <li> Next we split the data into training and test set. Since we are doing a time series analysis, we took the first 20% of the available data as our training and validation and next 20% as testing.
