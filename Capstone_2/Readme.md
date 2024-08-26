@@ -7,7 +7,6 @@ Capstone_2/
     <br> --- mill-road-trial-sensor-point-locations-2.csv - File containing locations of the sensors (Latitude and Longitude)
     <br> --- mill_road_traffic_data.csv - File containing historical traffic data from all sensors
     <br> --- model_metrics_params.txt - File showing the parameters, hyperparameters and metrics for the model
-    <br> --- Project Report.docx
     <br> --- Project Report.pdf - The Project Report
     <br> --- Project_Notebook.ipynb - The Project Notebook
     <br> --- Readme
