@@ -12,6 +12,7 @@ Capstone_2/
     <br> --- Project_Notebook.ipynb - The Project Notebook
     <br> --- Readme
     <br> --- sensor-10-east-road-14.csv - Example data of a single sensor
+    <br> --- /images - Folder containing image files
 
 ## Abstract:
 Badly timed traffic lights can cause several problems like traffic congestion, dissatisfaction for drivers, dissatisfaction for drivers, increased risk of accidents and higher pollution. Many traffic controllers use real-time traffic data to time their signals. However these are often expensive to set up and operate.
