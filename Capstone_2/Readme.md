@@ -35,7 +35,7 @@ One solution to this is implementing predictive models to time the signal, which
 <li> We then looked at the PACF to see what the AR order should be. We used a moving maximum method to compare when the deviations are within expected bounds, to then decide what the value of p should be.
 <li> We used these values (p,0,q) in an ARIMA model to forecast the future values (next 20%).
 <li> We tried to average the forecasted values with the measure of expected flow discussed in point 12 of the Data Exploration section. Doing so drastically improved the model accuracy.
-<br>![alt text](image-3.png)
+<br>![alt text](images/image-3.png)
 <p><br> The next step was to compare to another model, we use XGBRegression </br></p>
 
 <b>XGB</b>
@@ -44,7 +44,7 @@ One solution to this is implementing predictive models to time the signal, which
 <li> We used GridSearchCV with a 3-fold cross-validation to help us obtain a model with the best transformation and hyperparameters.
 <li> We then noted the best parameters and forecasted the test data with this model
 <li> Finally we compared the forecast to the actual test data and determined the accuracy using RMSE 
-<br>![alt text](image-4.png)
+<br>![alt text](images/image-4.png)
 <p><br> We observed much better accuracy including the ability to follow specific trends better with the XGBRegressor model than with the ARIMA model, even after adjusting for statistically expected values. This means we can use the latter model with less re-training for longer</br></p>
 
 <b>Linear Regressor</b>
@@ -52,14 +52,14 @@ One solution to this is implementing predictive models to time the signal, which
 <li> The linear regressor can be trained in a fraction of the time as the ARIMA or XGB Regressor
 <li> The linear regression model outperformed the ARIMA and is atleast as accurate as the XGB Regressor
 <li> Given these observations, the linear regressor seems to be the model of choice 
-<br>![alt text](/images/image-5.png)
+<br>![Alt text](images/image-5.png)
 
 <b> Model Training and Performance Comparison</b>
-<br>![alt text](image-6.png)
+<br>![alt text](images/image-6.png)
 
 ## Additional Discussion
 We can remove some sensors that are correlated to others, reducing the installation and maintenance/monitoring costs. 
-<br>![alt text](image-7.png)
+<br>![alt text](images/image-7.png)
 <br> To note are:
 <li> Continue monitoring the traffic to ensure the correlations hold
 <li> Short term trends may differ from overall observed correlations
