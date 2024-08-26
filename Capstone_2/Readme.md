@@ -17,7 +17,7 @@ Capstone_2/
 ## Abstract:
 Badly timed traffic lights can cause several problems like traffic congestion, dissatisfaction for drivers, dissatisfaction for drivers, increased risk of accidents and higher pollution. Many traffic controllers use real-time traffic data to time their signals. However these are often expensive to set up and operate.
 One solution to this is implementing predictive models to time the signal, which will decrease dependence on real time sensor information, possibly eliminating the need for several sensors or allow cheaper sensors and reduce costs of installation and operation. 
-<br>This project attempts to create such a model, using data from the Mill Road Project <br>[https://data.world/datagov-uk/d3a76dbd-9936-4375-9ba6-e2974fafc943/workspace/project-summary?agentid=datagov-uk&datasetid=d3a76dbd-9936-4375-9ba6-e2974fafc943]. <br>This is hourly data for the flow of vehicles and pedestrians at the intersection.
+<br>This project attempts to create such a model, using data from the Mill Road Project <br><a href="[destination_url](https://data.world/datagov-uk/d3a76dbd-9936-4375-9ba6-e2974fafc943/workspace/project-summary?agentid=datagov-uk&datasetid=d3a76dbd-9936-4375-9ba6-e2974fafc943)">Mill Road Project Data</a>. <br>This is hourly data for the flow of vehicles and pedestrians at the intersection.
 <br>This data will be analyzed to develop a model that will predict the traffic for the next hour based on a combination of expected traffic from several days of data at the time, and recent traffic hourly data. This output can then be used to time the traffic signal appropriately.
 
 ## Conclusions:
@@ -52,7 +52,7 @@ One solution to this is implementing predictive models to time the signal, which
 <li> We used the same data, input format and transformation as for XGB Regressor
 <li> The linear regressor can be trained in a fraction of the time as the ARIMA or XGB Regressor
 <li> The linear regression model outperformed the ARIMA and is atleast as accurate as the XGB Regressor
-<li> Given these observations, the linear regressor seems to be the model of choice 
+<li> Given these observations, the linear regressor seems to be the model of choice. 
 <br>![Alt text](images/image-5.png)
 
 <b> Model Training and Performance Comparison</b>
