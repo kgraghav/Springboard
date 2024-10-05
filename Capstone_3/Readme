@@ -1,7 +1,9 @@
-Capstone 3: Predicting Machinery Unbalance using Vibration Data
-<p>
-<br> Files: 
-<li> capstone_3_notebook: Jupyter Notebook with the analysis and modeling
-<li> Project Report.pdf: Report
-<li> Project Presentation.ppt: Presentation 
-<li> Model Metrics.xlsx: Summary table of model type, tuned parameters, validation and test scores
+# Readme
+
+## Capstone 3: Predicting Machinery Unbalance using Vibration Data
+
+**Files:**
+- `capstone_3_notebook`: Jupyter Notebook with the analysis and modeling
+- `Project Report.pdf`: Report
+- `Project Presentation.ppt`: Presentation
+- `Model Metrics.xlsx`: Summary table of model type, tuned parameters, validation and test scores
