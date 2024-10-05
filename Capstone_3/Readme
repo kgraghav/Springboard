@@ -6,4 +6,4 @@
 - `capstone_3_notebook`: Jupyter Notebook with the analysis and modeling
 - `Project Report.pdf`: Report
 - `Project Presentation.ppt`: Presentation
-- `Model Metrics.xlsx`: Summary table of model type, tuned parameters, validation and test scores
+- `Model Metrics.xlsx`: Summary table of model type, tuned parameters, validation, and test scores
