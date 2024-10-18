@@ -1,7 +1,21 @@
-# DataScienceGuidedCapstone
+# DataScienceGuidedCapstone: Investment and Utilization Strategy through Price Modeling at Big Mountain Ski Resort
 
 Hello students!
 Welcome to the Data Science Guided Capstone! 
+
+## The folder structure:
+Capstone_1/
+- **Notebooks/** - Folder containing Jupyter notebooks for analysis and model development
+- **data/** - Folder with processed data files
+- **images/** - Folder containing images used in the project
+- **models/** - Folder with saved machine learning models
+- **raw_data/** - Folder containing raw data files before processing
+- **.gitignore** - Git configuration file to ignore specific files and folders
+- **Guided Capstone Project Report.pdf** - The project report detailing the approach, analysis, and results
+- **Pipfile** - Dependency manager file listing required Python packages
+- **Pipfile.lock** - Lock file for exact package versions
+- **Pricing_Strategy_BigMountainResort.pdf** - Project Presentation
+
 
 ## Getting Started
 
