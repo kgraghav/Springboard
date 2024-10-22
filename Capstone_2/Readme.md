@@ -1,4 +1,4 @@
-# Capstone 2 Project: Modeling Traffic Flow at Mill Road (UK)
+# Capstone 2 Project: Modeing Traffic Flow at Mill Road (UK)
 
 ### This project aims to develop a forecasting model for traffic flow. Such a model can be used to better time traffic signal controllers, which results in reduced commute time, air and noise pollution and better living experience for people. 
 
